@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <style>
+            body{
+                border: 2px solid blue;
+                width: 80%;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <table  cellspacing="20px">
+        <h1>Internet Usage Survey</h1>
+        <p>This is being conducted to help identify the internet usage patterns of our customers. <br>
+            Please take a few moments to conmplete and submit short form. Thank you for your cooperation.</p><br>
+           
+            <tr>
+                <td>What type of Internet usage you have?<br>(Select one)</td>
+                <td><select name="internet" id="internet" size="4">
+                <option value="Dal">Dal UP</option>
+                <option value="DSL">DSL</option>
+                <option value="High speed cable">High speed cable UP</option>
+                <option value="other">other</option></td></select>          
+            </tr>                               
+            <tr>
+                <td>What type of computer do you  use most at home?</td>
+                <td ><input type="radio"  name="computer" id="Desktop"  value="Desktop">Desktop
+                <input type="radio"  name="computer" id="Laptop"  value="Laptop">Laptop</td>
+            </tr>
+            <tr>
+                <td>How would you describe your main reason to using the internet?</td>
+                <td><input type="radio"  name="reason" id="Work"  value="Work"><label>To do Work-related activities</label><br>
+                <input type="radio"  name="reason" id="School"  value="School"><label>To do School-related activities</label><br>
+                <input type="radio"  name="reason" id="Ent"  value="Ent"><label>For Entertainment purpuse</label><br>
+                <input type="radio"  name="reason" id="Other"  value="Other"><label>Other</label><br>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Type of sites visited</legend>
+                        <p>What type of websites do you access most often?<br>Check all that apply</p>
+                        
+                            
+                                <input type="checkbox" name="web" id="web"><label>Self improvement</label><br>
+                                <input type="checkbox" name="web" id="web"><label>Entertainment</label><br>
+                                <input type="checkbox" name="web" id="web"><label>News and Sports</label><br>
+                                <input type="checkbox" name="web" id="web"><label>Reference</label><br>
+                                <input type="checkbox" name="web" id="web"><label>Email</label>
+                            
+                            </fieldset>
+
+                        
+
+        
+                        
+                    
+                </td>
+                <td><fieldset>
+                    <legend>Time spent using internet</legend>
+                    <p>During an average week. How long do you spend online?<br></p><br>
+                    
+                        
+                            <input type="radio" name="Time" id="1"><label>0-3 Hours</label><br>
+                            <input type="radio" name="Time" id="2"><label>4-6 Hours</label><br>
+                            <input type="radio" name="Time" id="3"><label>7-10 Hours </label><br>
+                            <input type="radio" name="Time" id="4"><label>11-14 Hours</label><br>
+                            <input type="radio" name="Time" id="5"><label>15+ Hours</label><br>
+                        
+                        </fieldset></td>
+            </tr>
+            <div>
+           <tr>
+            <td>Please comment on your opinions concerning Internet privacy and safety. <br>
+                <textarea name="comm" id="comm" cols="50" rows="4"></textarea>
+            </td>
+           </tr>
+        </div>
+        
+        <tr>
+            <td> First Name: <input type="text" name="nm" id=""></td>
+            <td>  Last Name: <input type="text" name="nm" id=""> </td>
+        </tr>
+        <tr>
+            <td>Age: <input type="text" name="age"></td>
+            <td>Zipcode: <input type="text" name="zip"></td>
+
+        </tr>
+         
+        
+
+    
+
+
+
+
+
+        
+
+
+
+        
+        
+            
+            
+        </table>
+    </form>
+    </body>
+</html>
